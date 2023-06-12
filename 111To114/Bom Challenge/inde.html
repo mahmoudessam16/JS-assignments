@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM Challenge</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px auto;
+        }
+        .container .form {
+            background-color: #eee;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form .input {
+            padding: 10px;
+            border-radius: inherit;
+            border: none;
+            margin-right: 10px;
+            width: 300px;
+            outline: none;
+        }
+        .form .add {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: inherit;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        ul {
+            list-style: none;
+            margin-top: 40px;
+        }
+        li {
+            background-color: #eee;
+            width: 400px;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 6px;
+            padding-left: 20px;
+            position: relative;
+        }
+        button {
+            position: absolute;
+            right: 10px;
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 5px;
+            top: 7px;
+            border-radius: inherit;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="text" class="input">
+            <input type="submit" class="add" value="Add Task">
+        </div>
+        <div class="tasks"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

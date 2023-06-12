@@ -1,0 +1,30 @@
+let one = document.querySelector(".element");
+let two = document.querySelector("#elzero");
+let three = document.querySelector("[name='js']");
+let four = document.querySelector('div');
+let five = document.querySelectorAll(".element")[0];
+let six = document.querySelectorAll("#elzero")[0];
+let seven = document.querySelectorAll("[name='js']")[0];
+let eight = document.querySelectorAll('div')[0];
+let nine = document.getElementById("elzero");
+let ten = document.getElementsByClassName("element")[0];
+let eleven = document.getElementsByName("js")[0];
+let twelve = document.getElementsByTagName("div")[0];
+let thirteen = document.body.children[0];
+let fourteen = window.elzero;
+
+
+console.log(one);
+console.log(two);
+console.log(three);
+console.log(four);
+console.log(five);
+console.log(six);
+console.log(seven);
+console.log(eight);
+console.log(nine);
+console.log(ten);
+console.log(eleven);
+console.log(twelve);
+console.log(thirteen);
+console.log(fourteen);

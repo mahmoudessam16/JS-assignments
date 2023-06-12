@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "writer": "Adam",
+        "section": "Romance",
+        "title": "Title One",
+        "content": "This is Book One"
+    },
+    {
+        "id": 2,
+        "writer": "Charles",
+        "section": "Policy",
+        "title": "Title Two",
+        "content": "This is Book Two"
+    },
+    {
+        "id": 3,
+        "writer": "Smith",
+        "section": "Fiction",
+        "title": "Title Three",
+        "content": "This is Book Three"
+    },
+    {
+        "id": 4,
+        "writer": "John",
+        "section": "Documentary",
+        "title": "Title Four",
+        "content": "This is Book Four"
+    },
+    {
+        "id": 5,
+        "writer": "Stewie",
+        "section": "Action",
+        "title": "Title Five",
+        "content": "This is Book Five"
+    }
+]
